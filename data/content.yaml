@@ -97,6 +97,14 @@ Projects:
       - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     #Badges: [keyword1, keyword2, keyword3]
 
+Research:
+  - Topic: A Very Innovative Research
+    Details:
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Badges: [keyword1, keyword2, keyword3]
+
 References:
   - Name: Person One
     Relation: Co-worker at Super Cool Company
@@ -158,8 +166,16 @@ Languages:
     Level: B1
 
 Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+  - Degree: PhD
+    Year: 2025
+    University: University of Cambridge
+    Location: Cambridge, UK
+    Major: Electrical Engineering and Computer Science
+  - Degree: Bachelor
+    Year: 2020
+    University: Harvard University
+    Location: Cambridge, USA
+    Major: Computer Science
 
 Interests:
   - Bouldering
