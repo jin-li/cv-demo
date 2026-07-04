@@ -19,6 +19,7 @@ colorRightColumnIconBackground = "#c9a56a"
 pages = 2
 footerNote = "2026 © CV German"
 swapColumns = true
+showDownload = false
 
 section_order = ["profile", "thesis", "experience", "education", "publications"]
 side_section_order = ["name", "avatar", "contacts", "skills", "languages"]
