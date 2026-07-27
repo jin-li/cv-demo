@@ -1,0 +1,31 @@
+{{ range $key, $entry := site.Data }}
+    {{ if reflect.IsMap $entry }}
+        {{ $config := index $entry "config" }}
+        {{ $content := index $entry "content" }}
+        {{ if and (reflect.IsMap $config) $content }}
+            {{ $slug := "" }}
+            {{ with index $config "slug" }}
+                {{ $slug = strings.Trim (printf "%v" .) "/ " }}
+            {{ end }}
+
+            {{ if $slug }}
+                {{ $title := printf "%s - CV" $slug }}
+                {{ with index $config "title" }}
+                    {{ $title = printf "%v" . }}
+                {{ end }}
+
+                {{ $page := dict
+                    "kind" "page"
+                    "type" "cv"
+                    "path" $slug
+                    "title" $title
+                    "params" (dict
+                        "cv_key" $key
+                        "cv_slug" $slug
+                    )
+                }}
+                {{ $.AddPage $page }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}

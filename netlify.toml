@@ -1,6 +1,7 @@
-# example netlify.toml
+# netlify.toml
 [build]
-  command = "git submodule update --init --recursive && hugo"
+  base = "themes/jinli-cv/exampleSite"
+  command = "hugo"
   functions = "netlify/functions"
   publish = "public"
 

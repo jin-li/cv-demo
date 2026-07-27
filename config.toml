@@ -1,0 +1,139 @@
+languageCode = "en"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "jinli-cv"
+disableKinds = ["section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "https://example.com/"
+title = "Jin Li - CV"
+#googleAnalytics = ""
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "#e3bfb8"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#e3bfb8"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#e3bfb8"
+pages = 2
+# Set this param to 'true' to swap the bar positions
+swapColumns = true
+# Show/hide the download button (top-right corner)
+showDownload = true
+# Button position: "top_right" or "top_left"
+download_button = "top_right"
+# Ordered sections for left column (regular section style)
+section_order = ["profile", "thesis", "experience", "projects", "research", "education", "publications", "references"]
+# Ordered sections for right column (sideSection style)
+side_section_order = ["avatar", "name", "contacts", "diplomas", "skills", "languages", "interests"]
+footerNote = "2026 © Jin Li   |   jinli.io"
+
+# Left column (content__left) defaults and sizing
+[params.section]
+percent = 70
+margin = "0 0 0 0"
+padding = "1rem 2rem 3rem 1rem"
+
+# Right column (content__right) defaults and sizing
+[params.side_section]
+percent = 28
+margin = "0"
+padding = "1rem 1rem"
+
+# Global defaults for all badge containers/items in all sections
+[params.badges]
+badges_margin = "0 0 0 0"
+badges_padding = "0 0 0 0"
+badge_margin = "0 0 0 0"
+badge_padding = "0 0.2rem 0 0.2rem"
+
+# Per-section overrides (wrapper)
+[params.avatar]
+margin = "0 0 0 0"
+padding = "0 0 0 0"
+
+[params.name]
+margin = "0 0 0 0"
+padding = "0 0 0 0"
+
+[params.contacts]
+margin = "0 0 0 0"
+padding = "0 0 0 0"
+
+[params.diplomas]
+# display_name = "Certificates"
+margin = "0 0 2rem 0"
+child_margin = "1rem 0 0 0"
+
+[params.skills]
+margin = "0 0 0 0"
+padding = "0 0 2rem 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
+
+[params.languages]
+margin = "0 0 0 0"
+padding = "0 0 2rem 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
+
+[params.interests]
+margin = "0 0 0 0"
+padding = "0 0 2rem 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
+
+[params.profile]
+margin = "0 0 0 0"
+padding = "0 0 2rem 0"
+
+[params.education]
+margin = "0 0 2rem 0"
+padding = "0 0 0 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
+
+[params.experience]
+margin = "0 0 0 0"
+padding = "0 0 0 0"
+child_margin = "0 0 1rem 0"
+child_padding = "0 0 0 0"
+
+[params.projects]
+margin = "0 0 2rem 0"
+padding = "0 0 0 0"
+child_margin = "0 0 1rem 0"
+child_padding = "0 0 0 0"
+
+[params.research]
+margin = "0 0 2rem 0"
+padding = "0 0 0 0"
+child_margin = "0 0 1rem 0"
+child_padding = "0 0 0 0"
+
+[params.references]
+margin = "0 0 2rem 0"
+padding = "0 0 0 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
+
+[params.publications]
+margin = "0 0 2rem 0"
+padding = "0 0 0 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
+
+[params.thesis]
+margin = "0 0 2rem 0"
+padding = "0 0 0 0"
+child_margin = "0 0 0 0"
+child_padding = "0 0 0 0"
