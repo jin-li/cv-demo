@@ -1,5 +1,7 @@
 # 锦鲤简历演示站点
 
+> **语言切换 / Language Switch**: [English](README.md) | [简体中文](README.zh.md)
+
 本仓库演示如何使用 [锦鲤简历](https://github.com/jin-li/jinli-cv) Hugo 主题创建一个美观、可打印的多语言简历网站。
 
 **在线演示：** [https://jinli-cv-demo.netlify.app/](https://jinli-cv-demo.netlify.app/)

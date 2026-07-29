@@ -1,5 +1,7 @@
 # Jinli CV Demo Site (锦鲤简历演示站点)
 
+> **Language Switch / 语言切换**: [English](README.md) | [简体中文](README.zh.md)
+
 This repository demonstrates how to use the [jinli-cv](https://github.com/jin-li/jinli-cv) (a.k.a. 锦鲤简历) Hugo theme to create a beautiful, printable CV/resume website with multi-language support.
 
 **Live Demo:** [https://jinli-cv-demo.netlify.app/](https://jinli-cv-demo.netlify.app/)
