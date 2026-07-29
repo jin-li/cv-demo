@@ -1,13 +1,13 @@
-# Jinli CV 演示站点
+# 锦鲤简历演示站点
 
-本仓库演示如何使用 [jinli-cv](https://github.com/jin-li/jinli-cv) Hugo 主题创建一个美观、可打印的多语言 CV/简历网站。
+本仓库演示如何使用 [锦鲤简历](https://github.com/jin-li/jinli-cv) Hugo 主题创建一个美观、可打印的多语言简历网站。
 
 **在线演示：** [https://jinli-cv-demo.netlify.app/](https://jinli-cv-demo.netlify.app/)
 
 ## 概述
 
 本仓库展示了如何：
-- 将 jinli-cv 主题作为 Git 子模块使用
+- 将锦鲤简历主题作为 Git 子模块使用
 - 配置多个 CV 版本（不同语言/版本）
 - 自定义内容、样式和部署
 - 部署到 Netlify（或任何静态托管服务）
@@ -19,7 +19,7 @@
 ```
 cv-demo/
 ├── themes/
-│   └── jinli-cv/          # jinli-cv 主题 (git 子模块)
+│   └── jinli-cv/          # 锦鲤简历主题 (git 子模块)
 │       ├── exampleSite/   # <- 这是实际被服务的内容
 │       │   ├── config.toml
 │       │   ├── content/
@@ -34,7 +34,7 @@ cv-demo/
 ## 🚀 工作原理
 
 本仓库不包含自己的内容。相反：
-1. `jinli-cv` 主题作为 Git 子模块包含在内
+1. `锦鲤简历` 主题作为 Git 子模块包含在内
 2. Netlify 从 `themes/jinli-cv/exampleSite/` 构建网站（在 `netlify.toml` 中指定）
 3. 主题的示例站点提供了一个完整的、可用的 CV 演示，包括：
    - 默认 CV（主页）
@@ -57,7 +57,7 @@ cv-demo/
 
 ### 选项 2：从头创建仓库
 1. 创建一个新仓库
-2. 将 jinli-cv 主题添加为子模块：
+2. 将锦鲤简历主题添加为子模块：
    ```bash
    hugo new site my-cv-site
    cd my-cv-site
@@ -80,7 +80,7 @@ cv-demo/
 
 ### 使用主题的 exampleSite（推荐用于测试）
 ```bash
-# 克隆 jinli-cv 主题
+# 克隆锦鲤简历主题
 git clone https://github.com/jin-li/jinli-cv.git
 cd jinli-cv/exampleSite
 
@@ -163,12 +163,12 @@ CV 针对 A4 打印进行了优化：
 
 ## 📄 许可证
 
-本演示站点按原样提供，用于教育目的。jinli-cv 主题采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件和 [jinli-cv 仓库](https://github.com/jin-li/jinli-cv/blob/main/LICENSE)。
+本演示站点按原样提供，用于教育目的。锦鲤简历主题采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件和 [锦鲤简历仓库](https://github.com/jin-li/jinli-cv/blob/main/LICENSE)。
 
 ## 🙏 致谢
 
 - **原始主题**：[Almeida CV](https://github.com/ineesalmeida/almeida-cv) 由 Inês Almeida 创作 (MIT 许可证)
-- **当前主题**：[jinli-cv](https://github.com/jin-li/jinli-cv) 由 Jin Li 维护 (MIT 许可证)
+- **当前主题**：[锦鲤简历](https://github.com/jin-li/jinli-cv) 由 Jin Li 维护 (MIT 许可证)
 - **演示数据**：仅用于演示目的的示例数据
 
 ---

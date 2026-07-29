@@ -1,13 +1,13 @@
-# Jinli CV Demo Site
+# Jinli CV Demo Site (锦鲤简历演示站点)
 
-This repository demonstrates how to use the [jinli-cv](https://github.com/jin-li/jinli-cv) Hugo theme to create a beautiful, printable CV/resume website with multi-language support.
+This repository demonstrates how to use the [jinli-cv](https://github.com/jin-li/jinli-cv) (a.k.a. 锦鲤简历) Hugo theme to create a beautiful, printable CV/resume website with multi-language support.
 
 **Live Demo:** [https://jinli-cv-demo.netlify.app/](https://jinli-cv-demo.netlify.app/)
 
 ## Overview
 
 This repo shows how to:
-- Use the jinli-cv theme as a Git submodule
+- Use the jinli-cv (锦鲤简历) theme as a Git submodule
 - Configure multiple CV versions (different languages/versions)
 - Customize content, styling, and deployment
 - Deploy to Netlify (or any static hosting)
@@ -19,7 +19,7 @@ The actual CV content and configuration comes from the theme's `exampleSite/` di
 ```
 cv-demo/
 ├── themes/
-│   └── jinli-cv/          # jinli-cv theme (git submodule)
+│   └── jinli-cv/          # jinli-cv (锦鲤简历) theme (git submodule)
 │       ├── exampleSite/   # <- This is what gets served
 │       │   ├── config.toml
 │       │   ├── content/
@@ -57,7 +57,7 @@ To create your own personalized CV site based on this demo:
 
 ### Option 2: Create Your Own Repository
 1. Create a new repository
-2. Add the jinli-cv theme as a submodule:
+2. Add the jinli-cv (锦鲤简历) theme as a submodule:
    ```bash
    hugo new site my-cv-site
    cd my-cv-site
@@ -80,7 +80,7 @@ To preview changes locally:
 
 ### Using the theme's exampleSite (recommended for testing)
 ```bash
-# Clone jinli-cv theme
+# Clone jinli-cv (锦鲤简历) theme
 git clone https://github.com/jin-li/jinli-cv.git
 cd jinli-cv/exampleSite
 
@@ -163,12 +163,12 @@ The CV is optimized for A4 printing:
 
 ## 📄 License
 
-This demo site is provided as-is for educational purposes. The jinli-cv theme is licensed under the MIT License - see the [LICENSE](LICENSE) file and the [jinli-cv repository](https://github.com/jin-li/jinli-cv/blob/main/LICENSE) for details.
+This demo site is provided as-is for educational purposes. The jinli-cv (锦鲤简历) theme is licensed under the MIT License - see the [LICENSE](LICENSE) file and the [jinli-cv repository](https://github.com/jin-li/jinli-cv/blob/main/LICENSE) for details.
 
 ## 🙏 Credits
 
 - **Original Theme**: [Almeida CV](https://github.com/ineesalmeida/almeida-cv) by Inês Almeida (MIT License)
-- **Current Theme**: [jinli-cv](https://github.com/jin-li/jinli-cv) by Jin Li (MIT License)
+- **Current Theme**: [jinli-cv](https://github.com/jin-li/jinli-cv) (锦鲤简历) by Jin Li (MIT License)
 - **Demo Data**: Sample data for demonstration purposes only
 
 ---
